@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f3f051;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.language-list {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+.language-list li {
+    background-color: #f0f0f0; /* Warna latar belakang untuk setiap item */
+    margin: 5px 0; /* Margin antara item */
+    padding: 10px; /* Padding dalam item */
+    border-radius: 5px; /* Sudut membulat */
+}
+
+.quote {
+    font-style: italic; /* Mengatur gaya font menjadi miring */
+    background-color: #f9f9f9; /* Warna latar belakang untuk kutipan */
+    border-left: 4px solid #4CAF50; /* Garis di sebelah kiri kutipan */
+    padding: 10px 15px; /* Padding dalam kutipan */
+    margin: 20px 0; /* Margin atas dan bawah */
+    border-radius: 5px; /* Sudut membulat */
+}
+
+.profile-photo {
+    width: 150px; /* Atur lebar gambar sesuai kebutuhan */
+    height: 150px; /* Atur tinggi gambar sesuai kebutuhan */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    display: block;
+    margin: 0 auto; /* Menengahkan gambar */
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%; /* Atur lebar kolom proyek */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.project-image {
+    width: 100%; /* Gambar akan memenuhi lebar kolom proyek */
+    height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+    border-radius: 5px; /* Sudut gambar yang membulat */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #f3f051;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f3f051;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4CAF50; /* Warna teks untuk tautan */
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f3f051;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
